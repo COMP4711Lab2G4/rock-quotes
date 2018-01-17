@@ -17,7 +17,7 @@ class Welcome extends Application
 	{
 		// this is the view we want shown
 		$this->data['pagebody'] = 'homepage';
-		  
+
 		// build the list of authors, to pass on to our view
 		$source = $this->quotes->all();
 
@@ -26,7 +26,7 @@ class Welcome extends Application
 
 		$this->render();
 	}
-	
+
 	 /**
      * Show just one actor
      */
@@ -40,9 +40,9 @@ class Welcome extends Application
 
             // pass on the data to present, as the "authors" view parameter
             $this->data['authors'] = $source;
-			
-			// pass on the data to present, adding the author record's fields
-			$this->data = array_merge($this->data, (array) $source);
+
+						// pass on the data to present, adding the author record's fields
+						$this->data = array_merge($this->data, (array) $source);
 
             $this->render();
     }
