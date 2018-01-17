@@ -6,7 +6,7 @@ if (!defined('APPPATH'))
  *
  * Pass in $pagetitle (which will in turn be passed along)
  * and $pagebody, the name of the content view.
- * 
+ *
  * Yes, this is using an old version of Bootstrap. too bad.
  *
  * ------------------------------------------------------------------------
@@ -23,10 +23,12 @@ if (!defined('APPPATH'))
     </head>
     <body>
         <div class="container">
-            <div id="content">
-                <h1>{pagetitle}</h1>
-                {content}
-            </div>
+						<center>
+							<div id="content">
+									<h1>{pagetitle}</h1>
+									{content}
+							</div>
+						</center>
             <div id="footer" class="span12">
                 Copyright &copy; 2015-2017,  <a href="mailto:someone@somewhere.com">Me</a>.
             </div>
