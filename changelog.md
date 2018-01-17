@@ -5,6 +5,7 @@ John K: Captain
 Tony S: First Mate
 
 Changelog  (newest first)
+- Added quote functionality to have a picture shown only when clicked
 - Added tooltip functionality
 - Added Todd Howard to the index
 - Added start-repo content to the repo
